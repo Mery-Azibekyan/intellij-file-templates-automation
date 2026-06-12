@@ -100,3 +100,6 @@ Note: this directory is excluded from version control. Artifacts are generated l
 - The Starter framework launches a real instance of IntelliJ IDEA 2024.3 Ultimate for each test — this means tests take longer than typical unit tests but provide accurate, real-world verification
 - First run may take several minutes due to IDE download and unpacking
 - Settings are opened via keyboard shortcut (Cmd+, on macOS, Ctrl+, on Windows/Linux) — this mirrors real user behavior and is more stable than clicking UI elements whose accessible names may change between IDE versions
+- The `docs` folder contains the generated Allure HTML report published via GitHub Pages.
+    It is intentionally committed to enable the live report at the link above.
+    
