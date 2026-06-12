@@ -4,6 +4,7 @@ import org.jetbrains.intellij.platform.gradle.*
 plugins {
     id("org.jetbrains.intellij.platform") version "2.2.1"
     kotlin("jvm") version "2.0.0"
+    id("io.qameta.allure") version "2.11.2"
 }
 
 repositories {
@@ -22,6 +23,7 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
     testImplementation("org.kodein.di:kodein-di-jvm:7.20.2")
+    testImplementation("io.qameta.allure:allure-junit5:2.27.0")
 }
 
 kotlin {

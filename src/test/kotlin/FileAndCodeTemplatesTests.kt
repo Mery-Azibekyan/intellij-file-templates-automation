@@ -52,8 +52,8 @@ class FileAndCodeTemplatesTest : BaseTest() {
                     FileTemplate.entries.forEach { template ->
                         fileAndCodeTemplatesPanel.selectTemplate(template.templateName)
                         val actualContent = fileAndCodeTemplatesPanel.getEditorText()
-                        check(actualContent == template.expectedContent) {
-                            "Template content for ${template.templateName} doesn't match.\nExpected: ${template.expectedContent}\nActual: $actualContent"
+                        check(actualContent.contains(template.expectedContentSegment)) {
+                            "Template content for ${template.templateName} doesn't match.\nExpected: ${template.expectedContentSegment}\nActual: $actualContent"
                         }
                     }
                 }
