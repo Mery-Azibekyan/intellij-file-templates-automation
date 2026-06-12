@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 12 23:04:55 GMT+04:00 2026","Fri Jun 12 23:05:36 GMT+04:00 2026","41060","","FileAndCodeTemplatesTest","","FileAndCodeTemplatesTest","verifyCustomTemplateCreationAndPersistence","Verify custom template can be created and persists all the entered data after saving",""
+"passed","Fri Jun 12 23:05:36 GMT+04:00 2026","Fri Jun 12 23:05:59 GMT+04:00 2026","22832","","FileAndCodeTemplatesTest","","FileAndCodeTemplatesTest","verifyTabSwitchingShowsCorrectTemplates","Verify each tab displays its correct template category",""
+"passed","Fri Jun 12 23:04:27 GMT+04:00 2026","Fri Jun 12 23:04:55 GMT+04:00 2026","27893","","FileAndCodeTemplatesTest","","FileAndCodeTemplatesTest","verifyTemplateContentOnSelection","Verify correct content is displayed for selected file template",""
