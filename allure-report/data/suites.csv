@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","41060","Verify custom template can be created and persists all the entered data after saving","","Fri Jun 12 23:04:55 GMT+04:00 2026","passed","Fri Jun 12 23:05:36 GMT+04:00 2026","","FileAndCodeTemplatesTest","FileAndCodeTemplatesTest","verifyCustomTemplateCreationAndPersistence"
+"","22832","Verify each tab displays its correct template category","","Fri Jun 12 23:05:36 GMT+04:00 2026","passed","Fri Jun 12 23:05:59 GMT+04:00 2026","","FileAndCodeTemplatesTest","FileAndCodeTemplatesTest","verifyTabSwitchingShowsCorrectTemplates"
+"","27893","Verify correct content is displayed for selected file template","","Fri Jun 12 23:04:27 GMT+04:00 2026","passed","Fri Jun 12 23:04:55 GMT+04:00 2026","","FileAndCodeTemplatesTest","FileAndCodeTemplatesTest","verifyTemplateContentOnSelection"
